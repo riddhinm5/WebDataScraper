@@ -69,7 +69,7 @@ class WebScraper():
                     raise e
 
 
-def main():
+'''def main():
     ws = WebScraper('https://spotifycharts.com/regional/us/daily/'
                     , '2018-02-01'
                     , 'tr'
@@ -80,4 +80,4 @@ def main():
     print(ws.scrape(1).head())
 
 if __name__ == '__main__':
-    main()
+    main()'''
